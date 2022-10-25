@@ -6,14 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="./src/style.css" />
-    <title>Vite ➕ Tailwind</title>
+    <title>Timers</title>
   </head>
   <body>
-    <h1
-      class="text-center text-3xl font-semibold text-red-500 md:text-5xl"
-    >
-      Hello
-    </h1>
+    <main class="flex h-screen flex-col items-center justify-center gap-y-8">
+      <p class="text-5xl font-bold text-red-500">
+        Time Remaining: <span id="countdown">0</span>
+      </p>
+
+      <!-- TODO: Use JS to display message one word at a time. -->
+      <p id="message" class="text-9xl font-black"></p>
+
+      <!-- TODO: Use JS to add an image here. -->
+    </main>
 
     <script type="module" src="./src/index.js"></script>
   </body>
