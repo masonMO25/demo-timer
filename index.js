@@ -9,8 +9,6 @@ const words = MESSAGE.split(" ");
 const countdownSpan = document.querySelector("#countdown");
 const messageP = document.querySelector("#message");
 
-const img = document.createElement("img");
-
 function displayMessage(msgArr) {
   let i = 0;
 
